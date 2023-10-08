@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Portfolio</title>
+  <style>
+    h1, h3, p {
+      color: blue; /* Change to the desired text color */
+    }
+
+    h1, h3 {
+      background-color: yellow; /* Change to the desired background color for headings */
+    }
+
+    table {
+      border: 2px solid black;
+      margin: 100px;
+    }
+
+    th {
+      background-color: lightgray;
+      border: 2px solid black;
+      padding: 10px;
+    }
+
+    td {
+      border: 2px solid black;
+      padding: 10px;
+    }
+
+    .img1, .img2, .img3 {
+      width: 150px;
+      height: 150px;
+      border: 5px dashed red;
+      padding: 30px;
+    }
+
+    .img2 {
+      width: 50%;
+      height: 50%;
+    }
+
+    .img3 {
+      width: 3in;
+      height: 3in;
+    }
+  </style>
+</head>
+<body>
+  <h1>Emma Fernandes-Santinho</h1>
+  <h3>NJIT | esf | Architecture | B.Arch</h3>
+  <p>Emma has been a thinker and a tinkerer since she could get her grubby little hands on creative (or destructive) materials. As a small child, one would most likely not call Emma “naturally artistically talented”, a description at odds with her paradoxically stubborn and curious personality, along with her joy for ignoring the lines on coloring pages. Unfortunately, the rigid structure of elementary education led Emma to believe she was not creative. Creative people colored in the lines, using complementing shades. If there is one thing Emma wishes she could have figured out sooner, it’s that she was lied to.<br>Years later, Emma has been successful coloring outside the lines. While earning her high school diploma and Associate's in Science and Math at the same time, Emma began to understand that the “there are no rules” philosophy applied not only to her projects, but her very personhood. Throughout that time, Emma explored every interest that caught her eye; sketching, painting, sewing, instrumentalism, literature, poetry, philosophy, photography, history (art and otherwise), astronomy, community service, robotic engineering, graphic design, 3D printing, environmentalism, feminism, urbanism, and bones (endo- and exo-). (If you’ve got any spare bones or teeth lying around, Emma can do a reverse tooth fairy thing for you, and turn them into some cool art for you.) All of these fixations have led to experiences which have led to successes in their own right – Emma has competed at the FIRST Robotics Competition world championship, won awards at regional levels for her art, and organized many a mutual aid drive. But even moreso, all of these niche, seemingly unrelated hoards of knowledge patch together to create the polymathic identity that creates beautiful, practical, well-informed design. (Or at least they will, once Emma has survived five years of studio.)<br>In the far-off future, Emma would like to earn a Ph.D., publish books, make weirder art, and start a space for other artists to share their own weird art. But that’s not now. Currently, when Emma is not rubbing her palms together and giggling as she schemes her next project, she's singing to her (very reluctant) cat, reading in a lovely spot of sun, or constructing flower crowns to share with friends. Emma knows that love is not something we fall into, but something that we find, with time, and discipline, and taking that extra minute to blow dandelion seeds into the wind.</p>
+
+  <a href="https://www.njit.edu/academics/major/architecture">Archi @ NJIT</a>
+
+  <img class="img1" src="C:\Users\emmas\Downloads\IMG_4017.jpg" alt="Picture">
+  <img class="img2" src="C:\path_to_your_image2.jpg" alt="Picture 2">
+  <img class="img3" src="C:\path_to_your_image3.jpg" alt="Picture 3">
+
+  <!-- Content Section -->
+  <div>
+    <h2>Content</h2>
+    <!-- Table -->
+    <table>
+      <tr>
+        <th><h1>Education</h1></th>
+        <th><h1>Experience</h1></th>
+        <th><h1>Skills</h1></th>
+      </tr>
+      <tr>
+        <td>B.Arch, NJIT</td>
+        <td>Director of Design FRC 9015</td>
+        <td>Project Management, AutoCAD</td>
+      </tr>
+      <tr>
+        <td>AS General Science</td>
+        <td>Freelance Design Projects</td>
+        <td>SketchUp, Adobe Creative Suite</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Form Section -->
+  <div>
+    <h2>Form</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br>
+
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName"><br>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName"><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label>Select your interests:</label><br>
+      <input type="checkbox" id="math" name="interests" value="math">
+      <label for="math">Math</label><br>
+      <input type="checkbox" id="architecture" name="interests" value="architecture">
+      <label for="architecture">Architecture</label><br>
+      <input type="checkbox" id="computerScience" name="interests" value="computerScience">
+      <label for="computerScience">Computer Science</label><br>
+
+      <label>Select one of the following:</label><br>
+      <input type="radio" id="mathRadio" name="subject" value="math">
+      <label for="mathRadio">Math</label><br>
+      <input type="radio" id="architectureRadio" name="subject" value="architecture">
+      <label for="architectureRadio">Architecture</label><br>
+      <input type="radio" id="computerScienceRadio" name="subject" value="computerScience">
+      <label for="computerScienceRadio">Computer Science</label><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <!-- Classes Section -->
+  <div>
+    <h2>Classes This Semester</h2>
+    <ul>
+      <li>Architectural Design Studio I</li>
+      <li>First Year Seminar</li>
+      <li>Tools and Techniques</li>
+      <li>Prob and Stats</li>
+    </ul>
+  </div>
+
+</body>
+</html>

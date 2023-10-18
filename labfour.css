@@ -1,0 +1,52 @@
+h1, h3, p {
+    color: blue;
+  }
+  
+  h1, h3 {
+    background-color: yellow;
+  }
+  
+  table {
+    border: 2px solid black;
+    margin: 100px;
+  }
+  
+  th {
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  td {
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .img1, .img2, .img3 {
+    width: 150px;
+    height: 150px;
+    border: 5px dashed red;
+    padding: 30px;
+  }
+  
+  .architecture-paragraph {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+  }
+  
+  /* Task-2: Link Styles */
+  ul li:nth-child(1) a:hover {
+    color: red;
+  }
+  
+  ul li:nth-child(2) a:visited {
+    color: gray;
+  }
+  
+  ul li:nth-child(3) a:active {
+    color: orange;
+  }
+  
